@@ -1,0 +1,12 @@
+hikrobot_camera:
+  ros__parameters:
+    serial_number: ''
+    ip_address: ''
+    image_topic: /image_raw
+    frame_id: camera_optical_frame
+    exposure_time: 5000.0
+    gain: 0.0
+    frame_rate: 30.0
+    pixel_format: BGR8
+    reconnect_interval_ms: 2000
+    grab_timeout_ms: 1000
